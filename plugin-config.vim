@@ -19,8 +19,10 @@ let g:kite_supported_languages = ['*']
 let g:kite_tab_complete = 1
 let g:kite_snippets=1
 
-
-
 """""""" Signify """""""" 
-" always show signcolumns
+" always show signcolumns (git)
 set signcolumn=yes
+
+"""""""" SimplyFold """""""" 
+let g:SimpylFold_docstring_preview=1
+let b:SimpylFold_fold_import=1

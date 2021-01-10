@@ -8,9 +8,6 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
   "autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
 
-
-
-
 call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Better Syntax Support
@@ -41,5 +38,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf.vim'
     "Sneak around with fast search using 's'
     Plug 'justinmk/vim-sneak'
+    "Simplify folding depending on programming language
+    Plug 'tmhedberg/SimpylFold'
+    Plug 'Konfekt/FastFold'
 
 call plug#end()

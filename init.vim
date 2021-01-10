@@ -18,3 +18,4 @@ set cursorline
 """""""" Look & Feel """""""" 
 colorscheme gruvbox
 let g:airline_theme='gruvbox'
+
